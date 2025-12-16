@@ -11,7 +11,7 @@ Surveillance, Epidemiology, and End Results (SEER) Program (www.seer.cancer.gov)
 
 ### Individual Patient-level Data Not Included
 **Individual patient-level data cannot be shared publicly per SEER Research Data Agreement.**
-Aggregate statistics (not patient-level) are available in summary CSV files.
+<br>Aggregate statistics (not patient-level) are available in summary CSV files.
 
 ### How to Obtain Data
 1. Request access at [https://seer.cancer.gov/data/access.html](https://seer.cancer.gov/data/access.html)
@@ -30,9 +30,9 @@ Aggregate statistics (not patient-level) are available in summary CSV files.
 **Variables to Extract:**
 See Data Dictionary below for complete list of 13 variables
 
-**Export as CSV** for analysis
+4. Export as CSV for analysis
 
-4. Clean and filter the data using `notebooks/01_data_cleaning.ipynb`
+5. Clean and filter the data using `notebooks/01_data_cleaning.ipynb`
 
 ### Data Dictionary
 
@@ -56,3 +56,4 @@ See Data Dictionary below for complete list of 13 variables
 **Socioeconomic:**
 - `median_income` - County-level median household income (2023 inflation-adjusted)
 - `rural_urban` - Rural-Urban Continuum Code
+
