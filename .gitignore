@@ -1,0 +1,14 @@
+# SEER patient-level data cannot be shared per SEER data agreement
+data/*.csv
+data/*.txt
+
+# Aggregate summary statistics be shared
+!data/*summary*.csv
+!data/README.md
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
