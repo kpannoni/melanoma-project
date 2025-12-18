@@ -17,7 +17,7 @@ The data was pre-filtered in SEER*Stat to include only:
 
 #### Key variables
 - *Demographics:*  Age, Sex, Race
-- *Disease outcome:*  Year of diagnosis, Survial (months), Vital status, Cause of death
+- *Disease outcomes:*  Year of diagnosis, Stage, Survial (months), Vital status, Cause of death
 - *Socioeconomic:*  Household income, Rural-Urban continuum
 
 **Note:** Individual patient-level data cannot be shared publicly per SEER Research Data Agreement. 
