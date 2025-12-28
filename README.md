@@ -3,7 +3,7 @@ A personal project examining racial disparities in melanoma survival outcomes us
 
 ### Research Question
 
-Are melanoma survival disparities by race explained by later stage at diagnosis and socioeconomic factors, or do disparities persist independent of these factors?
+Are racial disparities in melanoma survival explained by a later stage at diagnosis and socioeconomic factors, or do disparities persist even after controlling for these factors?
 
 ### Dataset
 
