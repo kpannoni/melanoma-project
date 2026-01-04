@@ -1,6 +1,6 @@
-,N,Median Survival (mo),% Age 70+,% Distant Stage,% Acral Melanoma,% Low Income,% Large Metro
-Black,1027,76,31,14,17,22,60
-Asian or Pacific Islander,1598,95,26,11,12,2,63
-Hispanic,8077,101,20,7,5,6,69
-American Indian/Alaska Native,575,110,20,5,2,16,38
-White,215419,115,27,4,1,11,59
+,N,Median Survival (mo),% Age 70+,% Advanced Stage,% Acral Melanoma,% Low Income,% Large Metro
+Black,1027,76,31,40,17,22,60
+Asian or Pacific Islander,1598,95,26,30,12,2,63
+Hispanic,8077,101,20,23,5,6,69
+American Indian/Alaska Native,575,110,20,19,2,16,38
+White,215419,115,27,13,1,11,59
