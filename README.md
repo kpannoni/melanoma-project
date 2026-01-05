@@ -8,7 +8,7 @@ Are racial disparities in melanoma survival explained by a later stage at diagno
 ### Dataset
 
 *Source:* SEER Research Data, 17 Registries, Nov 2024 Sub (2000-2022)  
-*Dataset:* 226,696 cutaneous melanoma cases across 13 variables
+*Dataset:* 226,587 cutaneous melanoma cases across 13 variables
 
 The data was pre-filtered in SEER*Stat to include only:
 - Microscopy-confirmed malignant cutaneous melanoma
