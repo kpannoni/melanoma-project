@@ -1,12 +1,12 @@
 Description,Cases,Percent
 Original SEER cases,"234,818",100%
-Final Dataset Analyzed,"226,696",96.5%
+Final Dataset Analyzed,"226,587",96.5%
 ,,
-Melanoma Deaths,"27,374",12.1%
-Censored (total),"199,322",87.9%
-* Censored (Alive or Other),"198,338",87.5%
-* Censored (Unknown),984,0.4%
+Melanoma Deaths,"27,358",12.1%
+Censored (total),"199,229",87.9%
+* Censored (Alive or Other),"198,247",87.5%
+* Censored (Unknown),982,0.4%
 ,,
-Localized Cancer Stage,"196,180",86.5%
-Regional Cancer Stage,"21,145",9.3%
-Distant Cancer Stage,"9,371",4.1%
+Localized Cancer Stage,"196,086",86.5%
+Regional Cancer Stage,"21,139",9.3%
+Distant Cancer Stage,"9,362",4.1%
