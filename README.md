@@ -5,7 +5,7 @@ A personal project examining racial disparities in melanoma survival outcomes us
 
 Are racial disparities in melanoma survival explained by a later stage at diagnosis and socioeconomic factors, or do disparities persist even after controlling for these factors?
 
-### Dataset
+## Dataset
 
 *Source:* SEER Research Data, 17 Registries, Nov 2024 Sub (2000-2022)  
 *Dataset:* 226,587 cutaneous melanoma cases across 13 variables
@@ -17,14 +17,37 @@ The data was pre-filtered in SEER*Stat to include only:
 
 #### Key variables
 - *Demographics:*  Age, Sex, Race
-- *Disease outcomes:*  Year of diagnosis, Stage, Survial (months), Vital status, Cause of death
+- *Disease outcomes:*  Year of diagnosis, Stage, Survival (months), Vital status, Cause of death
 - *Socioeconomic:*  Household income, Rural-Urban continuum
 
 **Note:** Individual patient-level data cannot be shared publicly per SEER Research Data Agreement. 
 <br>Instructions for requesting access and recreating this dataset can be found in the [data README](../data/README.md).
 
-### Analysis Workflow
+## Analysis Overview
 
-1. **01_data_cleaning.ipynb** - Data cleaning and filtering
-2. **02_exploratory_analysis.ipynb** - Exploratory data analysis and visualization
-3. **03_survival_analysis.ipynb** - Kaplan-Meier curves and Cox regression models
+This analysis examines racial disparities in melanoma survival through three stages:
+
+### 1. Data Cleaning  ([01_data_cleaning.ipynb](notebooks/01_data_cleaning.ipynb))
+- Standardize variable names
+- Remove cases with unknown values for key variables (race, survival time, income, rural-urban status)
+- **Final dataset:** 226,587 cases
+
+### 2. Exploratory Analysis  ([02_exploratory_analysis.ipynb](notebooks/02_exploratory_analysis.ipynb))
+- Examine distributions of patient demographics, survival outcomes and stage at diagnosis by race
+- Create derived variables for survival analysis:
+  - Stage categories (Early vs Advanced)
+  - Age groups (<50, 50-69, 70+)
+  - Income tiers (Low, Medium, High)
+  - Metropolitan status (Metro vs Non-Metro)
+  - Acral melanoma indicator
+
+### 3. Survival Analysis  ([03_survival_analysis.ipynb](notebooks/03_survival_analysis.ipynb))
+- **Kaplan-Meier curves:** Compare overall survival by race, then stratify by cancer stage
+- **Log-rank tests:** Assess statistical significance of survival differences
+- **Cox proportional hazards regression:** Quantifies the association between risk factors and melanoma-specific mortality while controlling for multiple variables. Three progressive models test whether racial disparities persist after accounting for clinical factors and socioeconomic access:
+
+  - **Model 1:**  Demographics (age, sex, year of diagnosis)
+  - **Model 2:** + Clinical factors (cancer stage, acral melanoma)
+  - **Model 3:** + Socioeconomic access (metropolitan residence)
+
+
