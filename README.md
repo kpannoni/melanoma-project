@@ -2,8 +2,15 @@
 A personal project examining racial disparities in melanoma survival outcomes using SEER cancer registry data.
 
 ### Research Question
-
 Are racial disparities in melanoma survival explained by a later stage at diagnosis and socioeconomic factors, or do disparities persist even after controlling for these factors?
+
+### Significance
+Melanoma, a malignancy of melanocyte cells, is the 5th most common cancer in the United States and the most aggressive of the three major skin cancers (melanoma, basal cell, squamous cell). According to the [National Cancer Institute](https://seer.cancer.gov/statfacts/html/melan.html), approximately 2.2% of men and women will be diagnosed with melanoma of the skin at some point during their lifetime. In 2025, there were 104,960 new cases diagnosed and 8,430 deaths from melanoma in the United States, and the rate of new cases has increased over time since the NCI began tracking cases in 1992.
+
+While melanoma has excellent prognosis when detected at an early stage (over 99% 5-year survival), survival drops to 35% for distant-stage disease. Early detection is therefore critical for survival.
+
+Despite a higher incidence of cutaneous melanoma in White patients, Black patients experience significantly worse survival outcomes and increased mortality risk compared to White patients (Dawes et al., 2016). The factors driving these racial disparities are not fully understood. This analysis examines whether disparities can be explained by stage at diagnosis and socioeconomic access, or if significant differences persist after accounting for these factors.
+
 
 ## Dataset
 
@@ -35,10 +42,11 @@ This analysis examines racial disparities in melanoma survival through three sta
 ### 2. Exploratory Analysis  ([02_exploratory_analysis.ipynb](notebooks/02_exploratory_analysis.ipynb))
 - Examine distributions of patient demographics, survival outcomes and stage at diagnosis by race
 - Create derived variables for survival analysis:
-  - Stage categories (Early vs Advanced)
-  - Age groups (<50, 50-69, 70+)
-  - Income tiers (Low, Medium, High)
-  - Metropolitan status (Metro vs Non-Metro)
+
+  - Stage categories *(Early vs Advanced)*
+  - Age groups *(<50, 50-69, 70+)*
+  - Income tiers *(Low, Medium, High)*
+  - Metropolitan status *(Metro vs Non-Metro)*
   - Acral melanoma indicator
 
 ### 3. Survival Analysis  ([03_survival_analysis.ipynb](notebooks/03_survival_analysis.ipynb))
