@@ -9,7 +9,7 @@ Melanoma, a malignancy of melanocyte cells, is the 5th most common cancer in the
 
 While melanoma has excellent prognosis when detected at an early stage (over 99% 5-year survival), survival drops to 35% for distant-stage disease. Early detection is therefore critical for survival.
 
-Despite a higher incidence of cutaneous melanoma in White patients, Black patients experience significantly worse survival outcomes and increased mortality risk compared to White patients (Dawes et al., 2016). The factors driving these racial disparities are not fully understood. This analysis examines whether disparities can be explained by stage at diagnosis and socioeconomic access, or if significant differences persist after accounting for these factors.
+Despite a higher incidence of cutaneous melanoma in White patients, Black patients experience significantly worse survival outcomes and increased mortality risk compared to White patients ([Dawes et al., 2016]( https://doi.org/10.1016/j.jaad.2016.06.006)). The factors driving these racial disparities are not fully understood. This analysis examines whether disparities can be explained by stage at diagnosis and socioeconomic access, or if significant differences persist after accounting for these factors.
 
 
 ## Dataset
@@ -58,4 +58,8 @@ This analysis examines racial disparities in melanoma survival through three sta
   - **Model 2:** + Clinical factors (cancer stage, acral melanoma)
   - **Model 3:** + Socioeconomic access (metropolitan residence)
 
+## References
 
+Dawes, S. M., Tsai, S., Gittleman, H., Barnholtz-Sloan, J. S., & Bordeaux, J. S. (2016). Racial disparities in melanoma survival. *Journal of the American Academy of Dermatology*, 75(5), 983-991. https://doi.org/10.1016/j.jaad.2016.06.006
+
+National Cancer Institute. (2025). *Cancer Stat Facts: Melanoma of the Skin*. SEER. https://seer.cancer.gov/statfacts/html/melan.html
