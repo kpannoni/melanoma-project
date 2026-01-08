@@ -1,5 +1,5 @@
 ,Model 1,Model 2,Model 3
-Variables,Demographics,+ Clinical,+ Socioeconomic
+Variables,Demographics,Clinical Factors,Socioeconomic
 N Cases,226587,226587,226587
 Events,27358,27358,27358
 Concordance,0.64,0.82,0.82
