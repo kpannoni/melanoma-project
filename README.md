@@ -78,7 +78,7 @@ Looking at melanoma-specific cause of death, Black patients died of melanoma at 
 
 *These findings confirm that there is a significant racial disparity in survival for melanoma patients.*
 
-### Disparities in Cancer Stage at Diagnosis
+### Disparities in Clinical and Socioeconomic Risk Factors
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_stage_by_race.png" alt="Survival Time By Race" width="500"/>
 
@@ -88,10 +88,10 @@ Looking at melanoma-specific cause of death, Black patients died of melanoma at 
 
 *Overall, minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the disparity in survival time across racial groups. We will test this more directly later with the series of COX regression models.*
 
-### Disparities in Socioeconomic Access
+#### Summary Table of Risk Factors by Race:
 
-#### Household Income Tier by Race (%):
-<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/table_median_income_by_race.png" alt="Income Tier By Race" width="450"/>
+<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/risk_summary_table_by_race.png" alt="Risk Summary Table" width="750"/>
+
 
 ## References
 
