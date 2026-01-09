@@ -64,34 +64,50 @@ This analysis examines racial disparities in melanoma survival through three sta
   - **Model 2:** + Clinical factors (cancer stage, acral melanoma)
   - **Model 3:** + Socioeconomic access (metropolitan residence)
  
-# Results
-### Overall Disparities in Survival Outcomes
+# Summary of Results
+## Overall Disparities in Survival Outcomes
 Black patients have a median survival time that is **39 months less** than White patients (76 months compared to 115 months). Asian / Pacific Islander and Hispanic patients also show significant worse survival times compared to White Patients. Notably, American Indian / Alaska Native patients have a median survival time similar to White patients (111 months).
 <br><br>
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/boxplot_survival_time_by_race.png" alt="Survival Time By Race" width="800"/>
 
 Looking at melanoma-specific cause of death, Black patients died of melanoma at nearly **3×** the rate of White patients (32.5% vs 11.7%).
+<br>
 
-#### Cause of Death by Race (%):
-<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/table_cause_of_death_by_race.png" alt="Cause of Death By Race" width="450"/>
+<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_melanoma_deaths_by_race.png" alt="Melanoma Deaths By Race" width="425"/>
+
+### Survival curves by Race with Log-Rank Statistical Tests
+
+<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_by_race.png" alt="K-M Curves By Race" width="425"/>
+
+To visualize the racial disparities, Kaplan-Meier survival curves were plotted by race. Log-Rank statistical tests confirm that melanoma survival differs significantly across racial groups (overall p < 0.0001). All minority groups have significantly worse survival probabilty than White patients (p < 0.03 for all comparisons), with Black patients showing the largest disparity (test statistic = 531.59, p < 0.0001).
+
+View the full statistical test results:
+[logrank_overall_summary.csv](data/logrank_overall_summary.csv)
+[logrank_pairwise_summary.csv](data/logrank_pairwise_summary.csv)
 
 *These findings confirm that there is a significant racial disparity in survival for melanoma patients.*
 
-### Disparities in Clinical and Socioeconomic Risk Factors
+## Disparities in Clinical and Socioeconomic Risk Factors
+
+Black patients are **3.7×** more likely to be diagnosed with distant melanoma (14.3% vs 3.9%), which has a worse prognosis, while White patients are predominantly diagnosed at the earlier localized stage (87.2%).
+<br>
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_stage_by_race.png" alt="Survival Time By Race" width="500"/>
 
 *API = Asian or Pacific Islander; AI/AN = American Indian/Alaska Native*
 
-<br>Black patients are **3.7×** more likely to be diagnosed with distant melanoma (14.3% vs 3.9%), which has a worse prognosis, while White patients are predominantly diagnosed at the earlier localized stage (87.2%). 
+Due to sparse data at the distant stage for the smaller minority groups, regional and distant melanoma stages were combined as Advanced stage, relative to localized melanoma (Early stage). Black patients are diagnosed with advanced stage melanoma at 3.1× the rate of White patients (see summary table below).
 
-*Overall, minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the disparity in survival time across racial groups. We will test this more directly later with the series of COX regression models.*
+All minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the disparity in survival time across racial groups. We will test this more directly later with the series of COX regression models.*
 
-#### Summary Table of Risk Factors by Race:
+### Summary Table of Risk Factors by Race:
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/risk_summary_table_by_race.png" alt="Risk Summary Table" width="750"/>
 
+Black patients represent the largest proportion in most of the high risk categories: age over 70, advanced cancer stage, and low median household income. Black patients are also the highest percentage diagnosed with Acral melanoma, which is melanoma on the palms and soles. Acral melanoma is most common in Black, Asian and Hispanic populations, and has a worse prognosis than other subtypes. 
+
+Interestingly, residence in a metopolitan county, a proxy metric for access to healthcare, does not seem to correlate with lower survival times or worse outcomes.
 
 ## References
 
