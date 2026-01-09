@@ -100,7 +100,7 @@ Black patients are **3.7×** more likely to be diagnosed with distant melanoma (
 
 *API = Asian or Pacific Islander; AI/AN = American Indian/Alaska Native*
 
-Due to sparse data at the distant stage for the smaller minority groups, regional and distant melanoma stages were combined as Advanced stage, relative to localized melanoma (Early stage). Black patients are diagnosed with advanced stage melanoma at 3.1× the rate of White patients (see summary table below).
+Due to sparse data at the distant stage for the smaller minority groups, regional and distant melanoma stages were combined as Advanced stage melanoma, relative to localized melanoma (Early stage). Black patients are diagnosed with Advanced stage melanoma at 3.1× the rate of White patients (see summary table below).
 
 All minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the disparity in survival time across racial groups. We will test this more directly later with the series of COX regression models.*
 
