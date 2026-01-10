@@ -78,7 +78,7 @@ Looking at melanoma-specific cause of death, Black patients died of melanoma at 
 
 *API = Asian or Pacific Islander; AI/AN = American Indian/Alaska Native*
 
-### Survival curves by Race with Log-Rank Statistical Tests
+### Survival Curves by Race with Log-Rank Statistical Tests
 To visualize the racial disparities, Kaplan-Meier survival curves were plotted by race.
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_by_race.png" alt="K-M Curves By Race" width="600"/>
@@ -96,13 +96,23 @@ Log-Rank statistical tests confirm that melanoma survival differs significantly 
 Black patients are **3.7×** more likely to be diagnosed with distant melanoma (14.3% vs 3.9%), which has a worse prognosis, while White patients are predominantly diagnosed at the earlier localized stage (87.2%).
 <br>
 
-<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_stage_by_race.png" alt="Survival Time By Race" width="450"/>
+<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_stage_by_race.png" alt="Cancer Stage By Race" width="450"/>
 
 *API = Asian or Pacific Islander; AI/AN = American Indian/Alaska Native*
 
-Due to sparse data at the distant stage for the smaller minority groups, regional and distant melanoma stages were combined as Advanced stage melanoma, relative to localized melanoma (Early stage). Black patients are diagnosed with Advanced stage melanoma at 3.1× the rate of White patients (see summary table below).
+Due to sparse data at the distant stage for the smaller minority groups, regional and distant melanoma stages were combined as Advanced stage melanoma, relative to localized melanoma (Early stage). Black patients are diagnosed with Advanced stage melanoma at **3.1×** the rate of White patients (see summary table below).
 
-All minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the disparity in survival time across racial groups. We will test this more directly later with the series of COX regression models.*
+Overall, minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the disparity in survival time across racial groups. We will test this more directly later with the series of COX regression models.
+
+### Survival Curves by Race Stratified by Cancer Stage
+
+<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_strat_by_stage_category.png" alt="K-M Curves Stratified by Cancer Stage" width="600"/>
+
+The K-M survival curves show a similar pattern as we saw before, with Black patients showing the worst survival probabilities at both early and advanced stages, followed by Asian or Pacific Islander patients. Multivariate log-rank tests show a significant difference in survival time across race at both stages.
+
+For *early stage diagnosis*, all minority groups except for American Indian / Alaska Native patients have significantly worse survival outcomes than White Patients. This is consistent with the previous finding that White patients and American Indian / Alaska Native patients have similar median survival times (115 vs 110 months).
+
+At the *advanced stage*, both Black patients and Asian / Pacific Islander patients have significantly worse survival outcomes than White Patients, however there is no significant difference in survival outcomes between Hispanic or American Indian / Alaska Native patients compared to White patient
 
 ### Summary Table of Risk Factors by Race:
 
@@ -110,7 +120,7 @@ All minority groups are disproportionately diagnosed at advanced stages of melan
 
 Black patients represent the largest proportion in most of the high risk categories: age over 70, advanced cancer stage, and low median household income. Black patients are also the highest percentage diagnosed with Acral melanoma, which is melanoma on the palms and soles. Acral melanoma is most common in Black, Asian and Hispanic populations, and has a worse prognosis than other subtypes. 
 
-Interestingly, residence in a metopolitan county, a proxy metric for access to healthcare, does not seem to correlate with lower survival times or worse outcomes.
+Interestingly, residence in a metopolitan county, a proxy metric for access to healthcare, does not seem to correlate with longer survival times or better outcomes.
 
 ## References
 
