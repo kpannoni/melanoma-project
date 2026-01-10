@@ -1,5 +1,2 @@
-Comparison,Statistic,p-value,Significant?
-Black vs White,531.59,0.0000,Yes
-Asian or Pacific Islander vs White,249.92,0.0000,Yes
-Hispanic vs White,262.16,0.0000,Yes
-American Indian/Alaska Native vs White,9.11,0.0025,Yes
+Test,Statistic,p-value,Sig,df
+multivariate log-rank,1003.99,0.00,Yes,4
