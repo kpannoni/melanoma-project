@@ -58,7 +58,7 @@ This analysis examines racial disparities in melanoma survival through three sta
 ### 3. Survival Analysis  ([03_survival_analysis.ipynb](notebooks/03_survival_analysis.ipynb))
 - **Kaplan-Meier curves:** Compare overall survival by race, then stratify by cancer stage
 - **Log-rank tests:** Assess statistical significance of survival differences
-- **Cox proportional hazards regression:** Quantify the association between risk factors and melanoma-specific mortality while controlling for multiple variables. Three progressive models test whether racial disparities persist after accounting for clinical factors and socioeconomic access:
+- **Cox proportional hazards regression:** Quantify the association between risk factors and melanoma-specific mortality while controlling for multiple variables. Three progressive models test whether racial disparities persist after accounting for clinical and socioeconomic factors:
 
   - **Model 1:**  Demographics (age, sex, year of diagnosis)
   - **Model 2:** + Clinical factors (cancer stage, acral melanoma)
@@ -93,25 +93,28 @@ Log-Rank statistical tests confirm that melanoma survival differs significantly 
 
 ## Disparities in Clinical and Socioeconomic Risk Factors
 
+### Cancer Stage at Diagnosis by Race
+
 Black patients are **3.7×** more likely to be diagnosed with distant melanoma (14.3% vs 3.9%), which has a worse prognosis, while White patients are predominantly diagnosed at the earlier localized stage (87.2%).
 
 <br><img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_stage_by_race.png" alt="Cancer Stage By Race" width="450"/>
 
 *API = Asian or Pacific Islander; AI/AN = American Indian/Alaska Native*
 
-Due to sparse data at the distant stage for the smaller minority groups, regional and distant melanoma stages were combined as Advanced stage melanoma, relative to localized melanoma (Early stage). Black patients are diagnosed with Advanced stage melanoma at **3.1×** the rate of White patients (see summary table below).
+Due to sparse data at the distant stage for some minority groups, regional and distant melanoma stages were combined into an "Advanced" stage grouping. Black patients are diagnosed with advanced stage melanoma at **3.1×** the rate of White patients (see summary table below).
 
-Overall, minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the disparity in survival time across racial groups. We will test this more directly later with the series of COX regression models.
+Overall, minority groups are disproportionately diagnosed at advanced stages of melanoma, which likely accounts for much of the observed racial disparities in survival time. We will test this more directly later with the series of COX regression models.
 
 ### Survival Curves by Race Stratified by Cancer Stage
 
-<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_strat_by_stage_category.png" alt="K-M Curves Stratified by Cancer Stage" width="750"/>
+<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_strat_by_stage_category.png" alt="K-M Curves Stratified by Cancer Stage" width="800"/>
 
-The K-M survival curves show a similar pattern as we saw before, with Black patients showing the worst survival probabilities at both early and advanced stages, followed by Asian or Pacific Islander patients. Multivariate log-rank tests show a significant difference in survival time across race at both stages.
+The stratified K-M survival curves show a similar pattern as we saw before, with Black patients showing the worst survival probabilities at early and advanced stages, followed by Asian or Pacific Islander patients. Multivariate log-rank tests show a significant difference in survival time across race at both stages. However, racial disparities are overall more pronounced at the advanced stage.
 
-For *early stage diagnosis*, all minority groups except for American Indian / Alaska Native patients have significantly worse survival outcomes than White Patients. This is consistent with the previous finding that White patients and American Indian / Alaska Native patients have similar median survival times (115 vs 110 months).
-
-At the *advanced stage*, both Black patients and Asian / Pacific Islander patients have significantly worse survival outcomes than White Patients, however there is no significant difference in survival outcomes between Hispanic or American Indian / Alaska Native patients compared to White patient
+**View the full statistical test results:**
+<br>[logrank_by_stage_summary.csv](data/logrank_by_stage_summary.csv)
+<br>[logrank_Early_stage_pairwise_summary.csv](data/logrank_Early_stage_pairwise_summary.csv)
+<br>[logrank_Advanced_stage_pairwise_summary.csv](data/logrank_Advanced_stage_pairwise_summary.csv)
 
 ### Summary Table of Risk Factors by Race:
 
