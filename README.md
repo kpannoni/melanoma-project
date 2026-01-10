@@ -94,9 +94,8 @@ Log-Rank statistical tests confirm that melanoma survival differs significantly 
 ## Disparities in Clinical and Socioeconomic Risk Factors
 
 Black patients are **3.7×** more likely to be diagnosed with distant melanoma (14.3% vs 3.9%), which has a worse prognosis, while White patients are predominantly diagnosed at the earlier localized stage (87.2%).
-<br>
 
-<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_stage_by_race.png" alt="Cancer Stage By Race" width="450"/>
+<br><img src="https://github.com/kpannoni/melanoma-project/blob/main/images/barplot_stage_by_race.png" alt="Cancer Stage By Race" width="450"/>
 
 *API = Asian or Pacific Islander; AI/AN = American Indian/Alaska Native*
 
@@ -106,7 +105,7 @@ Overall, minority groups are disproportionately diagnosed at advanced stages of 
 
 ### Survival Curves by Race Stratified by Cancer Stage
 
-<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_strat_by_stage_category.png" alt="K-M Curves Stratified by Cancer Stage" width="600"/>
+<img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_strat_by_stage_category.png" alt="K-M Curves Stratified by Cancer Stage" width="750"/>
 
 The K-M survival curves show a similar pattern as we saw before, with Black patients showing the worst survival probabilities at both early and advanced stages, followed by Asian or Pacific Islander patients. Multivariate log-rank tests show a significant difference in survival time across race at both stages.
 
