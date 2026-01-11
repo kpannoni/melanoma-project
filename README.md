@@ -168,7 +168,7 @@ Summary table comparing results of the three models: [combined_model_table.png](
 
 This analysis revealed significant racial disparities in melanoma survival, with Black patients experiencing the worst outcomes and being disproportionately represented in multiple risk categories: advanced stage at diagnosis, age 70+, low-income counties, and acral melanoma subtype. These disparities persist even when stratified by cancer stage, indicating that minorities have worse outcomes regardless of disease severity at diagnosis.
 
-The Cox regression analysis showed that clinical factors (stage at diagnosis and acral melanoma) account for a significant portion of the observed racial disparities, reducing Black patients' hazard from 3.5× to 1.65× compared to White patients. However, racial disparities remain even after controlling for demographics, clinical factors, and geographic access to healthcare. This suggests that there are additional unmeasured factors contributing to survival disparities, such as treatment differences, screening patterns, implicit bias in care delivery, or biological differences. 
+The Cox regression analysis showed that clinical factors (stage at diagnosis and acral melanoma) account for a significant portion of the observed racial disparities, reducing Black patients' hazard from 3.5× to 1.65× compared to White patients. However, racial disparities remain even after controlling for demographics, clinical factors, and metropolitan residence as a proxy for geographic access to healthcare. This suggests that there are additional unmeasured factors contributing to survival disparities, such as treatment differences, screening patterns, implicit bias in care delivery, or biological differences. 
 
 ## References
 
