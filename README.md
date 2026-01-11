@@ -73,8 +73,8 @@ This analysis examines racial disparities in melanoma survival through three sta
 - Disparities persist even when stratified by cancer stage. At advanced stage, Black and Asian/Pacific Islander patients demonstrate significantly worse survival than White patients.
 
 ***Cox Regression Analysis:***
-- Controlling for clinical factors (cancer stage at diagnosis and acral melanoma) substantially reduced racial disparities, indicating these factors explain much of the observed differences in survival outcomes.
-- Metropolitan residence showed protective effects overall but did not further explain racial disparities, suggesting geographic access alone does not contribute significantly to racial disparities.
+- Controlling for clinical factors (cancer stage at diagnosis and acral melanoma) reduced racial disparities substantially, indicating these factors explain much of the observed differences in survival outcomes.
+- Metropolitan residence showed protective effects overall but did not further explain the disparities, suggesting geographic access does not contribute significantly to racial disparities.
 
 ## Overall Disparities in Survival Outcomes
 Black patients have a median survival time that is **39 months less** than White patients (76 months compared to 115 months). Asian / Pacific Islander and Hispanic patients also show significant worse survival times compared to White Patients. Notably, American Indian / Alaska Native patients have a median survival time similar to White patients (111 months).
