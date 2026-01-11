@@ -142,14 +142,14 @@ In the plot below, hazard ratios for each minority group are shown relative to W
 
 Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that geographic access to healthcare does not explain the remaining disparities. 
 
+***Note:*** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
+
 **Additional findings:**
 - Advanced stage melanoma is the largest risk factor (HR = 11.65 vs early stage)
 - Acral melanoma diagnosis increased risk (HR = 1.18)
 - Metropolitan residence was protective overall (HR = 0.87) but did not explain racial disparities
 
 Summary table comparing results of the three models: [combined_model_table.png](images/combined_model_table.png)
-
-***Note:*** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
 
 ## Conclusion
 
