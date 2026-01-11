@@ -31,7 +31,7 @@ For critial variables, cases with *unknown values* were removed: Race, Survival 
 <br>**Total:** 8,249 cases were removed (3.5% of the data)
 
 ***Note:*** Individual patient-level data cannot be shared publicly per SEER Research Data Agreement. 
-<br>Instructions for requesting access and recreating this dataset can be found in the [data README](../data/README.md).
+<br>Instructions for requesting access and recreating this dataset can be found in the [data README]("https://github.com/kpannoni/melanoma-project/blob/main/data/README.md").
 
 ### Final Cohort Summary
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/cohort_summary_table.png" alt="Cohort Summary Table" width="375"/>
