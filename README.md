@@ -142,18 +142,20 @@ In the plot below, hazard ratios for each minority group are shown relative to W
 
 Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that geographic access to healthcare does not explain the remaining disparities. 
 
-**Note:** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
-
 **Additional findings:**
 - Advanced stage melanoma is the largest risk factor (HR = 11.65 vs early stage)
 - Acral melanoma diagnosis increased risk (HR = 1.18)
 - Metropolitan residence was protective overall (HR = 0.87) but did not explain racial disparities
 
+Summary table comparing results of the three models: [combined_model_table.png](images/combined_model_table.png)
+
+***Note:*** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
+
 ## Conclusion
 
 This analysis revealed significant racial disparities in melanoma survival, with Black patients experiencing the worst outcomes and showing disproportionately higher representation in multiple risk categories: advanced stage at diagnosis, age 70+, low-income counties, and acral melanoma subtype. These disparities persist even when stratified by cancer stage, indicating that minorities have worse outcomes regardless of disease severity at diagnosis.
 
-The Cox regression analysis demonstrated that clinical factors (stage at diagnosis and acral melanoma) explain a substantial portion of racial disparities, reducing Black patients' hazard from 3.5× to 1.65× compared to White patients. However, significant disparities remain even after controlling for demographics, clinical factors, and geographic access to healthcare. This suggests that there are additional unmeasured factors contributing to racial disparities in outcomes, such as treatment differences, screening patterns, implicit bias in care delivery, or biological differences.
+The Cox regression analysis showed that clinical factors (stage at diagnosis and acral melanoma) account for a significant portion of the observed racial disparities, reducing Black patients' hazard from 3.5× to 1.65× compared to White patients. However, racial disparities remain even after controlling for demographics, clinical factors, and geographic access to healthcare. This suggests that there are additional unmeasured factors contributing to survival disparities, such as treatment differences, screening patterns, implicit bias in care delivery, or biological differences. 
 
 ## References
 
