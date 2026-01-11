@@ -66,7 +66,7 @@ This analysis examines racial disparities in melanoma survival through three sta
  
 # Summary of Results
 
-## Key Findings
+### Key Findings
 
 **Kaplan-Meier Analysis:**
 - Significant racial disparities exist in melanoma survival. Black patients experience the worst outcomes, with median survival 39 months shorter than White patients and melanoma-specific mortality rates 3× higher.
@@ -154,6 +154,8 @@ In the plot below, hazard ratios for each minority group are shown relative to W
 Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that geographic access to healthcare does not explain the remaining disparities. 
 
 ***Note:*** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
+
+---
 
 **Additional findings:**
 - Advanced stage melanoma is the largest risk factor (HR = 11.65 vs early stage)
