@@ -120,9 +120,11 @@ The stratified K-M survival curves show a similar pattern as we saw before, with
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/risk_summary_table_by_race.png" alt="Risk Summary Table" width="700"/>
 
-Black patients represent the largest proportion in the high risk categories: age over 70, advanced cancer stage, and low median household income. Black patients are also the highest percentage diagnosed with Acral melanoma, which is melanoma of the palms and soles. Acral melanoma is most common in Black, Asian and Hispanic populations, and has a worse prognosis than other subtypes. 
+Black patients show the highest proportions across multiple risk categories: advanced stage melanoma (40%), age 70+ (31%), and low-income counties (22%). 
 
-Interestingly, residence in a metopolitan county, a proxy metric for access to healthcare, does not seem to correlate with longer survival times or better outcomes.
+Black patients also have the highest rate of acral melanoma (17%), which occurs on the palms and soles. Acral melanoma is most common in Black, Asian, and Hispanic populations and carries a worse prognosis than other melanoma subtypes.
+
+Notably, Black and White patients reside in non-metropolitan counties at similar rates (12%), indicating they have comparable geographic distributions.
 
 ## COX Proportional Hazards Regression
 
@@ -136,14 +138,22 @@ In the plot below, hazard ratios for each minority group are shown relative to W
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/forest_plot_cox_models.png" alt="Forest Plot Combined Models" width="700"/>
 
-**All minority groups have an increased hazard of melanoma death compared to White patients (HR > 1).** Black patients have **3.5×** the hazard of melanoma death compared to White patients. After controlling for clinical factors (**Model 2**), Black patients' hazard decreased from 3.5× to 1.65× compared to White patients. This indicates that later stage at diagnosis and Acral melanoma rates contribute substantially to racial disparities, although significant disparities remain.
+**All minority groups show increased risk of melanoma death compared to White patients (HR > 1).** Black patients have **3.5× the hazard** compared to White patients at baseline (**Model 1**). After controlling for clinical factors (**Model 2**), Black patients' hazard decreased from 3.5× to 1.65× compared to White patients, indicating that advanced stage at diagnosis and higher rates of acral melanoma explain much of, but not all, the observed racial disparities.
 
-Controlling for metropolitan residence (**Model 3**) did not significantly change hazard ratios across races, suggesting that this socioeconomic factor does not explain the observed racial disparities. Household income could not be included in the model due to sparse data for minority groups in the critical low income tier.
+Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that geographic access to healthcare does not explain the remaining disparities. 
 
-**Other findings:**
-- The largest hazard risk is diagnosis at advanced cancer stage (HR = 11.65 for advanced vs early stage)
-- Diagnosis with Acral melanoma increases hazard (HR = 1.18)
+**Note:** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
+
+**Additional findings:**
+- Advanced stage melanoma is the largest risk factor (HR = 11.65 vs early stage)
+- Acral melanoma diagnosis increased risk (HR = 1.18)
 - Metropolitan residence was protective overall (HR = 0.87) but did not explain racial disparities
+
+## Conclusion
+
+This analysis revealed significant racial disparities in melanoma survival, with Black patients experiencing the worst outcomes and showing disproportionately higher representation in multiple risk categories: advanced stage at diagnosis, age 70+, low-income counties, and acral melanoma subtype. These disparities persist even when stratified by cancer stage, indicating that minorities have worse outcomes regardless of disease severity at diagnosis.
+
+The Cox regression analysis demonstrated that clinical factors (stage at diagnosis and acral melanoma) explain a substantial portion of racial disparities, reducing Black patients' hazard from 3.5× to 1.65× compared to White patients. However, significant disparities remain even after controlling for demographics, clinical factors, and geographic access to healthcare. This suggests that there are additional unmeasured factors contributing to racial disparities in outcomes, such as treatment differences, screening patterns, implicit bias in care delivery, or biological differences.
 
 ## References
 
