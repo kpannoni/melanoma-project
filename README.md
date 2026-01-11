@@ -120,7 +120,7 @@ Overall, minority groups are disproportionately diagnosed at advanced stages of 
 
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/km_curves_strat_by_stage_category.png" alt="K-M Curves Stratified by Cancer Stage" width="800"/>
 
-The stratified K-M survival curves show a similar pattern as we saw before, with Black patients showing the worst survival probabilities at early and advanced stages, followed by Asian / Pacific Islander patients. Multivariate log-rank tests show a significant difference in survival time across race at both stages. However, racial disparities are overall more pronounced at the advanced stage.
+The stratified K-M survival curves show a similar pattern as we saw before, with Black patients having the worst survival probabilities at early and advanced stages, followed by Asian / Pacific Islander patients. Multivariate log-rank tests show a significant difference in survival time across race at both stages. However, racial disparities are overall more pronounced at the advanced stage.
 
 **View the full statistical test results:**
 <br>[logrank_by_stage_summary.csv](data/logrank_by_stage_summary.csv)
