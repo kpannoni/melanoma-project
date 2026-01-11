@@ -1,4 +1,4 @@
-# melanoma-project
+# Melanoma Disparities Project
 A personal project examining racial disparities in melanoma survival outcomes using SEER cancer registry data.
 
 ### Research Question
