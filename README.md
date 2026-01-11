@@ -46,7 +46,7 @@ This analysis examines racial disparities in melanoma survival through three sta
 - **Final dataset:** 226,587 cases
 
 ### 2. Exploratory Analysis  ([02_exploratory_analysis.ipynb](notebooks/02_exploratory_analysis.ipynb))
-- Examine distributions of patient demographics, survival outcomes and stage at diagnosis by race
+- Examine distributions of patient demographics, survival outcomes, and stage at diagnosis by race
 - Create derived variables for survival analysis:
 
   - Stage categories *(Early vs Advanced)*
