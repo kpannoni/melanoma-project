@@ -65,6 +65,17 @@ This analysis examines racial disparities in melanoma survival through three sta
   - **Model 3:** + Socioeconomic access (metropolitan residence)
  
 # Summary of Results
+
+## Key Findings
+
+**Kaplan-Meier Analysis:**
+- Significant racial disparities exist in melanoma survival. Black patients experience the worst outcomes, with median survival 39 months shorter than White patients and melanoma-specific mortality rates 3× higher.
+- Disparities persist even when stratified by cancer stage. At advanced stage, Black and Asian/Pacific Islander patients demonstrate significantly worse survival than White patients.
+
+**Cox Regression Analysis:**
+- Controlling for clinical factors (cancer stage at diagnosis and acral melanoma) substantially reduced racial disparities, indicating these factors explain much of the observed differences in survival outcomes.
+- Metropolitan residence showed protective effects overall but did not further explain racial disparities, suggesting geographic access alone does not account for the remaining differences.
+
 ## Overall Disparities in Survival Outcomes
 Black patients have a median survival time that is **39 months less** than White patients (76 months compared to 115 months). Asian / Pacific Islander and Hispanic patients also show significant worse survival times compared to White Patients. Notably, American Indian / Alaska Native patients have a median survival time similar to White patients (111 months).
 <br><br>
