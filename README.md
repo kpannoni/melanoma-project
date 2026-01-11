@@ -151,7 +151,7 @@ In the plot below, hazard ratios for each minority group are shown relative to W
 
 **All minority groups show increased risk of melanoma death compared to White patients (HR > 1).** Black patients have **3.5× the hazard** compared to White patients at baseline (**Model 1**). After controlling for clinical factors (**Model 2**), Black patients' hazard decreased from 3.5× to 1.65× compared to White patients, indicating that advanced stage at diagnosis and higher rates of acral melanoma explain much of, but not all, the observed racial disparities.
 
-Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that geographic access to healthcare does not explain the remaining disparities. 
+Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that rural vs urban location does not explain the remaining disparities. 
 
 ***Note:*** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
 
