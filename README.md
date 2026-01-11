@@ -14,7 +14,7 @@ Despite a higher incidence of cutaneous melanoma in White patients, Black patien
 
 ## Dataset
 
-*Source:* SEER Research Data, 17 Registries, Nov 2024 Sub (2000-2022)  
+*Source:* SEER Research Data, 17 Registries, Nov 2024 Submission (2000-2022)  
 *Dataset:* 234,818 cutaneous melanoma cases across 13 variables
 
 The data was pre-filtered in SEER*Stat to include only:
@@ -74,7 +74,7 @@ This analysis examines racial disparities in melanoma survival through three sta
 
 ***Cox Regression Analysis:***
 - Controlling for clinical factors (cancer stage at diagnosis and acral melanoma) reduced racial disparities substantially, indicating these factors explain much of the observed differences in survival outcomes.
-- Metropolitan residence showed overal protective effects for all groups but did not further explain the disparities, suggesting geographic access to healthcare does not contribute significantly to racial disparities.
+- Metropolitan residence showed overall protective effects for all groups but did not further explain the disparities, suggesting geographic access to healthcare does not contribute significantly to racial disparities.
 
 ## Overall Disparities in Survival Outcomes
 Black patients have a median survival time that is **39 months less** than White patients (76 months compared to 115 months). Asian / Pacific Islander and Hispanic patients also show significant worse survival times compared to White Patients. Notably, American Indian / Alaska Native patients have a median survival time similar to White patients (111 months).
