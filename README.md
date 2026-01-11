@@ -153,7 +153,7 @@ In the plot below, hazard ratios for each minority group are shown relative to W
 
 Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that rural vs urban location does not explain the remaining disparities. 
 
-***Note:*** Household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
+***Note:*** Median household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
 
 ---
 
