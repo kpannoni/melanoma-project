@@ -162,7 +162,9 @@ Controlling for metropolitan residence (**Model 3**) resulted in minimal change 
 - Acral melanoma diagnosis increased risk (HR = 1.18)
 - Metropolitan residence was protective overall (HR = 0.87 vs Non-metro), but did not explain racial disparities
 
-Summary table comparing results of the three models: [combined_model_table.png](images/combined_model_table.png)
+Summary table comparing hazard ratios by race for the three models: [combined_model_table.png](images/combined_model_table.png)
+
+Full model results can be found here: [Model 1](images/Model1_demographic_results.png), [Model 2](images/Model2_clinical_results.png), [Model 3](images/Model3_socioeconomic_results.png)
 
 ## Conclusion
 
