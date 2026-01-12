@@ -51,7 +51,7 @@ This analysis examines racial disparities in melanoma survival through three sta
 
   - Stage categories *(Early vs Advanced)*
   - Age groups *(<50, 50-69, 70+)*
-  - Income tiers *(Low, Medium, High)*
+  - [Income tier](images/median_income_groups.png) *(Low, Medium, High)*
   - Metropolitan status *(Metro vs Non-Metro)*
   - Acral melanoma indicator
 
@@ -160,7 +160,7 @@ Controlling for metropolitan residence (**Model 3**) resulted in minimal change 
 **Additional findings:**
 - Advanced stage melanoma is the largest risk factor (HR = 11.65 vs early stage)
 - Acral melanoma diagnosis increased risk (HR = 1.18)
-- Metropolitan residence was protective overall (HR = 0.87) but did not explain racial disparities
+- Metropolitan residence was protective overall (HR = 0.87 vs Non-metro), but did not explain racial disparities
 
 Summary table comparing results of the three models: [combined_model_table.png](images/combined_model_table.png)
 
