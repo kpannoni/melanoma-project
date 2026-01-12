@@ -11,7 +11,6 @@ While melanoma has excellent prognosis when detected at an early stage (over 99%
 
 Despite a higher incidence of cutaneous melanoma in White patients, Black patients experience significantly worse survival outcomes and increased mortality risk compared to White patients ([Dawes et al., 2016]( https://doi.org/10.1016/j.jaad.2016.06.006)). The factors driving these racial disparities are not fully understood. This analysis examines whether disparities can be explained by stage at diagnosis, melanoma subtype, or rural vs urban location, or if significant differences persist after accounting for these factors.
 
-
 ## Dataset
 
 *Source:* SEER Research Data, 17 Registries, Nov 2024 Submission (2000-2022)  
@@ -29,6 +28,8 @@ The data was pre-filtered in SEER*Stat to include only:
 
 For critial variables, cases with *unknown values* were removed: Race, Survival time, Income, Rural-urban status
 <br>**Total:** 8,249 cases were removed (3.5% of the data)
+
+The survival analysis defines an event as a melanoma-specific death. All other cases are considered censored, where the event either did not occur or it's not known whether the event occurred.
 
 ***Note:*** Individual patient-level data cannot be shared publicly per SEER Research Data Agreement. 
 <br>Instructions for requesting access and recreating this dataset can be found in the [data README](data/README.md).
