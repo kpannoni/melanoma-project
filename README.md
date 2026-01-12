@@ -154,7 +154,9 @@ In the plot below, hazard ratios for each minority group are shown relative to W
 
 Controlling for metropolitan residence (**Model 3**) resulted in minimal change in racial hazard ratios, suggesting that rural vs urban location does not explain the remaining disparities. 
 
-***Note:*** Median household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
+*Note:* Median household income could not be included due to insufficient sample sizes in the low-income tier for some minority groups.
+
+**Summary table comparing hazard ratios by race for the three models:** [combined_model_table.png](images/combined_model_table.png)
 
 ---
 
@@ -162,8 +164,6 @@ Controlling for metropolitan residence (**Model 3**) resulted in minimal change 
 - Advanced stage melanoma is the largest risk factor (HR = 11.65 vs early stage)
 - Acral melanoma diagnosis increased risk (HR = 1.18)
 - Metropolitan residence was protective overall (HR = 0.87 vs Non-metro), but did not explain racial disparities
-
-Summary table comparing hazard ratios by race for the three models: [combined_model_table.png](images/combined_model_table.png)
 
 Full model results can be found here: [Model 1](images/Model1_demographic_results.png), [Model 2](images/Model2_clinical_results.png), [Model 3](images/Model3_socioeconomic_results.png)
 
