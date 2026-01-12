@@ -29,13 +29,13 @@ The data was pre-filtered in SEER*Stat to include only:
 For critial variables, cases with *unknown values* were removed: Race, Survival time, Income, Rural-urban status
 <br>**Total:** 8,249 cases were removed (3.5% of the data)
 
-The survival analysis defines an event as a melanoma-specific death. All other cases are considered censored, where the event either did not occur or it's not known whether the event occurred.
-
 ***Note:*** Individual patient-level data cannot be shared publicly per SEER Research Data Agreement. 
 <br>Instructions for requesting access and recreating this dataset can be found in the [data README](data/README.md).
 
 ### Final Cohort Summary
 <img src="https://github.com/kpannoni/melanoma-project/blob/main/images/cohort_summary_table.png" alt="Cohort Summary Table" width="375"/>
+
+The survival analysis defines an event as a melanoma-specific death. All other cases are considered censored, where the event either did not occur or it's not known whether the event occurred.
 
 ## Analysis Overview
 
