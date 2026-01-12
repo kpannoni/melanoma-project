@@ -1,5 +1,5 @@
 # Melanoma Disparities Project
-A personal project examining racial disparities in cutaneous melanoma (skin cancer) outcomes using SEER cancer registry data from the U.S. National Cancer Institute [2000-2022].
+A personal project examining racial disparities in cutaneous melanoma (skin cancer) survival outcomes using SEER cancer registry data from the U.S. National Cancer Institute [2000-2022].
 
 ### Research Question
 Are racial disparities in melanoma survival explained by a later stage at diagnosis and socioeconomic factors, or do disparities persist even after controlling for these factors?
