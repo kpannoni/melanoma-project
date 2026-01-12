@@ -25,7 +25,7 @@ The data was pre-filtered in SEER*Stat to include only:
 #### Key variables
 - **Demographics:**  Age, Sex, Race
 - **Disease outcomes:**  Year of diagnosis, Stage, Survival (months), Vital status, Cause of death
-- **Socioeconomic:**  Household income, Rural-Urban continuum
+- **Socioeconomic:**  Median household income (by county), Rural-Urban continuum
 
 For critial variables, cases with *unknown values* were removed: Race, Survival time, Income, Rural-urban status
 <br>**Total:** 8,249 cases were removed (3.5% of the data)
