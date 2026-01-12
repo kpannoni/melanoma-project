@@ -3,7 +3,7 @@
 ## SEER Melanoma Data (2000-2022)
 
 **Source:** Surveillance, Epidemiology, and End Results (SEER) Program  
-**Database:** SEER Research Data, 17 Registries, Nov 2024 Sub (2000-2022)  
+**Database:** SEER Research Data, 17 Registries, Nov 2024 Submission (2000-2022)  
 **Cases:** 234,818 cutaneous melanoma patients
 
 ### Citation
@@ -56,4 +56,5 @@ See Data Dictionary below for complete list of 13 variables
 **Socioeconomic:**
 - `median_income` - County-level median household income (2023 inflation-adjusted)
 - `rural_urban` - Rural-Urban Continuum Code
+
 
